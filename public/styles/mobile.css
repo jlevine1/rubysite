@@ -1,0 +1,145 @@
+body{
+	background-image:url(../images/net3.png);
+	background-color:black;
+}
+#wrapper{
+	width:420px;
+	height:52.27px;
+	background-image:url(../images/kheader.png);
+	margin:0 auto;
+	line-height:100px;
+	border: 5px solid orange;
+	border-radius:100px;
+	left:0px;
+	right:0px;
+}
+#nav{
+	color:blue;
+	font-size:20px;
+	height:16.95px;
+	width:480px;
+	padding:0px;
+	top:20px;
+	left:0px;
+	right:0px;
+	margin:auto;
+	position:fixed;
+}
+#nav a{
+	color:blue;
+	text-decoration:none;
+}
+#nav a:hover{
+	color:white;
+}
+#content1{
+	position:relative;
+	top:200px;
+}
+#content{
+	background-color:rgba(83, 83, 83, .8);
+	width:420px;
+	height:420px;
+	margin-top:100px;
+	border-color:transparent;
+	border-radius: 60px;
+	margin: 0 auto;
+	color:orange;
+}
+#content p{
+	color:#FFF;
+	font-size:30px;
+	font-family: tahoma;
+}
+#link1{
+	width:292px;
+	height:235px;
+	margin-top:-50px;
+	margin-bottom:50px;
+	margin-left:60px;
+}
+#link2{
+	width:292px;
+	height:235px;
+	margin-top:-50px;
+	margin-bottom:50px;
+	margin-left:60px;
+}
+#link3{
+	width:292px;
+	height:235px;
+	margin-top:-110px;
+	margin-bottom:50px;
+	margin-left:550px;
+}
+#link4{
+	width:292px;
+	height:235px;
+	margin-top:-30px;
+}
+#Ant{
+	width:292px;
+	height:235px;
+	margin-left:625px;
+	margin-top:-710px;
+}
+#Early{
+	text-align:center;
+	margin-top:-37px;
+}
+#spinlogo{
+	float:left;
+    margin: 0 auto;
+    position: absolute;
+    z-index:99;
+    background-image:url(../images/klogo.png);
+    top: 64%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+    margin-left: -60px;
+
+}
+#spinlogo:hover{
+    float: left;
+    margin: 0 auto;
+    position: absolute;
+    background-image:url(../images/klogo.png);
+    top: 64%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: -60px;
+    margin-left: -60px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin { from { -ms-transform: rotate(0deg); } to { -ms-transform: rotate(360deg); }}
+@-moz-keyframes spin { from { -moz-transform: rotate(0deg); } to { -moz-transform: rotate(360deg); }}
+@-webkit-keyframes spin { from { -webkit-transform: rotate(0deg); } to { -webkit-transform: rotate(360deg); }}
+@keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(360deg); }}
+    }
+/*#navbar1{
+	background-color:transparent;
+	color:blue;
+	font-family:tahoma;
+	font-size:20px;
+	position:relative;
+	left:0px;
+	top:0px;
+}*/
